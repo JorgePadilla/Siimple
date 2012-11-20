@@ -4,12 +4,14 @@
 <title>OnlineSolutions - Home</title>
 <link rel="icon" href="images/favicon.gif" type="image/x-icon"/>
 <link rel="shortcut icon" href="images/favicon.gif" type="image/x-icon"/> 
-<link rel="stylesheet" type="text/css" href="css/styles.css"/>
-<link rel="stylesheet" href="languageswitcher.css">
+<link rel="stylesheet" type="text/css" href="/assets/styles.css"/>
+<link rel="stylesheet" href="/assets/languageswitcher.css">
 
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-	<script src="js/slides.min.jquery.js"></script>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+	<script src="assets/slides.min.jquery.js"></script>
 	<script>
 		$(function(){
 			$('#slides').slides({
@@ -129,26 +131,10 @@
    </div>
    <!--end container-->
 
-<header>
-
-<div id="country-select">
-  <form action="server-side-script.php">
-    <select id="country-options" name="country-options">
-      <option selected="selected" title="http://www.yoursite.com" value="us">Spanish</option>
-      <option title="http://www.yoursite.co.uk" value="uk">English</option>
-      <option title="http://www.yoursite.fr" value="fr">French</option>
-      <option title="http://www.yoursite.de" value="de">German</option>
-      <option title="http://www.yoursite.nl" value="nl">Dutch</option>
-    </select>
-    <input value="Select" type="submit" />
-  </form>
-</div>
-</header>
 
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
-<script src="languageswitcher.js"></script>
+
      
    <!--start footer-->
    <footer>
@@ -161,7 +147,7 @@
    </section> 
    
    <section class="footer_left">
-   <h3>Website:
+   <h3>Sitio Web:
    <span>Lorem ipsum dolor sit amet</span>
    <span>Lorem ipsum dolor sit amet</span>
    </h3>
